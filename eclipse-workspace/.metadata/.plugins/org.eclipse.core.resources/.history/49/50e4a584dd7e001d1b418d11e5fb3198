@@ -1,0 +1,14 @@
+package com.faceboook.testcases;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.faceboook.base.TestBase;
+
+public class LoginPageTest extends TestBase {
+	
+	@BeforeMethod
+	public void setup() {
+		
+	}
+
+}

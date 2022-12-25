@@ -1,0 +1,5 @@
+package com.faceboook.testcases;
+
+public class LoginPageTest {
+
+}

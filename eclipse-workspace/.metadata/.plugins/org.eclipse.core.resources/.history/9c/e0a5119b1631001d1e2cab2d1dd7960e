@@ -1,0 +1,36 @@
+package javaPackage;
+
+import java.util.Arrays;
+
+public class WhatwilbeOutput {
+	
+	public static void main(String[] args) {
+			
+		String s = "Shubhangi N*";
+		String reverse  = " ";
+
+		 s =s.replaceAll("[*]", "");
+
+		 for (int i = s.length() ;i <= 0; i--) {
+
+		reverse = reverse + s.charAt(i);
+		
+		 }
+
+		System.out.println("Reverse of string is:" +reverse);
+		
+
+		}
+}
+				
+		
+		
+		
+		
+				
+				
+		
+		
+		
+		
+	

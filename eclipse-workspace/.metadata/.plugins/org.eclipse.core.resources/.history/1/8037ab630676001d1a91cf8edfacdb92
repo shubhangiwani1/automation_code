@@ -1,0 +1,36 @@
+package javaPackage;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Wahtwillbeoutput {
+	
+  public static void main(String[] args) {
+	  
+
+String input ="Welcome to plex";
+
+String Word []= input.split(" ");
+
+String reverse ="";
+
+for(int i= Word.length-1 ;i>= 0; i--){
+
+System.out.println(Word[i]);
+
+}
+	
+}
+}
+		
+		
+		
+				
+
+		
+	
+  
+	       

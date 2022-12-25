@@ -1,0 +1,7 @@
+package com.faceboook.util;
+
+public class TestUtil {
+	static long Page_load_timeout;
+	static long Implicit_wait;
+
+}

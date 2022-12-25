@@ -1,0 +1,28 @@
+package com.faceboook.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.faceboook.base.TestBase;
+
+public class LoginPage extends TestBase{
+	
+	@FindBy(name="email")
+	WebElement email;
+	
+	@FindBy(id="pass")
+	WebElement password;
+	
+	@FindBy(xpath="//button[@type='submit']")
+	WebElement LoginBtn;
+	   
+		
+	
+   public LoginPage(){
+	   PageFactory.initElements(driver, this);
+	   
+	
+}
+}
+

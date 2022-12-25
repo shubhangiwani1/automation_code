@@ -1,0 +1,42 @@
+package com.faceboook.testcases;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.faceboook.base.TestBase;
+import com.faceboook.pages.LoginPage;
+
+public class LoginPageTest extends TestBase {
+	LoginPage lp;
+	
+	public LoginPageTest() {
+		super();
+		
+	}
+	
+	@BeforeMethod
+	public void setup() {
+		initialization();
+		 lp =new LoginPage();
+		
+			
+	}
+	@Test
+	public void loginPageTitle() {
+		String title = lp.validateTitle();
+		Assert.assertEquals(title, "Facebook – log in or sign up");
+		
+	}
+	@Test 
+	public void logoTest() {
+		boolean flag = lp.validateLogo();
+		Assert.assertTrue(flag);
+	}
+	@AfterMethod
+	 public void tearDown() {
+		driver.quit();
+	}
+
+}

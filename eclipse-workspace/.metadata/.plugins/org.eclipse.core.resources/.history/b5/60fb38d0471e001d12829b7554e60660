@@ -1,0 +1,27 @@
+package JavaPackage;
+
+import java.util.Scanner;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		int c, d, num=0,n ;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter number of row flod's you want to print");
+		n=in.nextInt();
+		
+		for (c=1;c<=n; c++)
+		{
+			for (d=1;d<=c ;d++)
+			{
+				System.out.print("*");
+				num++;
+			}
+			System.out.println();
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,39 @@
+package javaPackage;
+
+
+
+public class WhatwilbeOutput {
+	
+	public static void main(String[] args) {
+		
+		int a[] = {2,3};
+		int b[]= {5,6};
+		int l1= a.length;
+		int l2 =b.length;
+		
+		int res[]=new int[l1+l2];
+		
+		System.arraycopy(a, 0, res, 0, l1);
+		System.arraycopy(b, 0, res, l1, l2);
+		
+		for(int i=0;i<res.length;i++) {
+			System.out.println(res[i]+" ");
+			
+		}
+		}
+		
+			
+
+				
+	}}
+		
+		
+		
+		
+				
+				
+		
+		
+		
+		
+	

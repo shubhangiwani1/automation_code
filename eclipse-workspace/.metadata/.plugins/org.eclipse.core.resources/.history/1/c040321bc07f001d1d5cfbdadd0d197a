@@ -1,0 +1,26 @@
+package javaPackage;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMaptogetRepeatedCount {
+
+	public static void main(String[] args) {
+		String str = "This is is a boy boy";
+		 Map<String, Integer> hm = new HashMap<>();
+		 
+		 String[] words = str.split(" ");
+		 for (String word : words) {
+			 Integer count = hm.get(word);
+			 if(count==null)
+				 hm.put(word, 1);
+			 else {
+				 hm.put(word, count+1);
+			 }
+		 }
+		 System.out.println(hm);
+	  }}
+
+	}
+
+}

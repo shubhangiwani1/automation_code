@@ -1,0 +1,16 @@
+package javaPackage;
+
+import java.util.Hashtable;
+
+public class HashTable {
+
+	public static void main(String[] args) {
+		Hashtable<Integer, String> hm = new Hashtable<Integer, String>();
+		hm.put(1, "Jan");
+		hm.put(2, "feb");
+		hm.put(3, "mar");
+		
+		System.out.println(hm.get(1));
+	}
+
+}

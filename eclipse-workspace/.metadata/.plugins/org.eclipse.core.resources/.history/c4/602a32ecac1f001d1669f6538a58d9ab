@@ -1,0 +1,13 @@
+package JavaPackage;
+
+public class Static2 {
+
+	public static void main(String[] args) {
+		
+		static1 obj = new static1(1, "john");
+		
+		obj.getResult();
+
+	}
+
+}
