@@ -1,0 +1,27 @@
+package javaPackage;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class removeduplicatefrostring {
+
+	public static void main(String[] args) {
+		String s ="shubsh";
+		StringBuilder sb =new StringBuilder();
+		
+		char [] ch= s.toCharArray();
+			
+				Set <Character> c = new HashSet<Character>();
+				 
+		for(char abc : ch) {
+			if (c.add(abc)) {
+				sb.append(abc);
+				
+				
+			}
+		}
+		System.out.println(sb.toString());
+
+	}
+
+}

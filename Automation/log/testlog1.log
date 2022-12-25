@@ -1,0 +1,25 @@
+2022-09-28 17:51:24,951 [main] INFO log4j - window maximized
+2022-09-28 17:51:24,963 [main] INFO log4j - implicit wait applied
+2022-09-28 17:51:26,425 [main] INFO log4j - open URL
+2022-09-28 17:51:43,955 [main] INFO log4j - window maximized
+2022-09-28 17:51:43,973 [main] INFO log4j - implicit wait applied
+2022-09-28 17:51:45,220 [main] INFO log4j - open URL
+2022-09-28 17:52:15,318 [main] INFO log4j - Failure of webelement
+2022-09-28 18:06:42,705 [main] INFO log4j - window maximized
+2022-09-28 18:06:42,715 [main] INFO log4j - implicit wait applied
+2022-09-28 18:06:47,008 [main] INFO log4j - open URL
+2022-09-28 18:07:17,038 [main] INFO log4j - Failure of webelement
+2022-09-28 18:07:17,071 [main] INFO log4j - web element is not selected
+2022-09-28 18:07:46,691 [main] INFO log4j - window maximized
+2022-09-28 18:07:46,706 [main] INFO log4j - implicit wait applied
+2022-09-28 18:07:50,343 [main] INFO log4j - open URL
+2022-09-28 18:08:20,407 [main] INFO log4j - Failure of webelement
+2022-09-28 18:08:20,446 [main] INFO log4j - web element is not selected
+2022-11-16 14:18:33,483 [main] INFO log4j - window maximized
+2022-11-16 14:18:33,495 [main] INFO log4j - implicit wait applied
+2022-11-16 14:18:35,275 [main] INFO log4j - open URL
+2022-11-16 14:18:55,580 [main] INFO log4j - Failure of webelement
+2022-11-16 14:52:56,855 [main] INFO log4j - window maximized
+2022-11-16 14:52:56,864 [main] INFO log4j - implicit wait applied
+2022-11-16 14:52:58,116 [main] INFO log4j - open URL
+2022-11-16 14:53:18,459 [main] INFO log4j - Failure of webelement

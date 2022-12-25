@@ -1,0 +1,11 @@
+package com.faceboook.base;
+
+public class TestBase {
+	
+
+	public TestBase() {
+		
+	}
+	
+	
+}

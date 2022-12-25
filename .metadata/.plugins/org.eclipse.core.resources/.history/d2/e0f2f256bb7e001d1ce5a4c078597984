@@ -1,0 +1,24 @@
+package javaPackage;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSet_try {
+
+	public static void main(String[] args) {
+		 int count=1;
+	
+		
+		String[] str = {"abc", "def", "mno", "xyz", "pqr", "xyz", "abc","pqr"};
+			HashSet<String> hs = new HashSet<String>();
+		 for (int i=0;i< str.length ;i++)
+		 {
+		 if(!hs.add(str[i])){
+			count = count+1;
+		 		 	
+		System.out.println("Duplicate Element is : "+str[i] +" count"+ count);
+		 }
+		 }
+		 }
+		}

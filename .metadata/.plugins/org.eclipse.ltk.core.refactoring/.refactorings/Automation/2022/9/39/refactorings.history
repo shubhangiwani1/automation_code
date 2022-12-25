@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Alert11.java&apos; to &apos;Automation/src/javaPackage&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Destination element: &apos;Automation/src/javaPackage&apos;&#x0D;&#x0A;- Original element: &apos;javaPackage.Alert11.java&apos;" description="Copy compilation unit" destination="/src&lt;javaPackage" element1="/src&lt;javaPackage{Alert11.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1663691831483" units="1" version="1.0"/>
+</session>

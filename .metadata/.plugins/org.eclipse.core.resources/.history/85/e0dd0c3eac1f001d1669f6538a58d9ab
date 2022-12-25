@@ -1,0 +1,21 @@
+package JavaPackage;
+
+public class static1 {
+
+	int roll;
+	String name;
+	static String college = "IIT Bombay";
+	
+	static1(int r, String s){
+		r=roll;
+		s= name;
+		
+	}
+	
+	public void getResult {
+		
+		System.out.println(roll + " "+ name +" "+college);
+				
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;javaPackage.WhatwilbeOutput&apos; to &apos;DuplicatefromArray&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Original element: &apos;javaPackage.WhatwilbeOutput&apos;&#x0D;&#x0A;- Renamed element: &apos;javaPackage.DuplicatefromArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WhatwilbeOutput&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;javaPackage{WhatwilbeOutput.java[WhatwilbeOutput" matchStrategy="1" name="DuplicatefromArray" qualified="false" references="true" similarDeclarations="false" stamp="1667413674616" textual="false" version="1.0"/>
+</session>

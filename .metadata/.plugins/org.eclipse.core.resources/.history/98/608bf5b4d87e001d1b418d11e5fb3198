@@ -1,0 +1,5 @@
+package com.faceboook.pages;
+
+public class CreateNewAccount {
+
+}
